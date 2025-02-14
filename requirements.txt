@@ -1,4 +1,14 @@
-paddlepaddle
 paddleocr>=2.0.1
 opencv-python-headless
 pillow
+uvicorn 
+sqlalchemy
+pydantic
+fastapi
+fastapi.responses
+sqlalchemy.orm
+ollama
+python-jose
+passlib
+python-multipart
+bcrypt
