@@ -19,7 +19,7 @@ from llm_utils import LlamaAgent, extract_json, extract_name_via_llm, generate_f
 # Create the SQLAlchemy tables (if not already created)
 Base.metadata.create_all(bind=engine)
 # Initialize the patient records database for SQLite
-# create_database()
+create_database()
 
 app = FastAPI(title="Medical Form Processor API with Auth")
 
